@@ -14,3 +14,9 @@ body {
   background-color: #ffffff;
 }
 
+.container{
+  width: 50%;
+  height: 75vh;
+  text-align: center;
+  margin-top: 5rem;
+}

@@ -9,8 +9,8 @@ const MainPage = () => {
   const { getData, dataList, selectedData, onSetCurrency } =
     useContext(MainContext);
   return (
-    <>
-      <Button className="mx-auto" onClick={() => getData()}>
+    <div className="container">
+      <Button className="px-5" onClick={() => getData()}>
         Fetch Data
       </Button>
       {dataList.length > 0 && (
@@ -46,7 +46,7 @@ const MainPage = () => {
           ))}
         </Table>
       )}
-    </>
+    </div>
   );
 };
 
